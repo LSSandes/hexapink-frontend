@@ -1,5 +1,5 @@
 // import { DivideIcon } from "@heroicons/react/20/solid";
-import React, { useState } from "react";
+import React from "react";
 
 interface Step {
   label: string;

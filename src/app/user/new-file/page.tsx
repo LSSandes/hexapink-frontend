@@ -14,6 +14,12 @@ const steps = [
 
 export default function NewFile() {
     const [stepNumber, setStepNumber] = useState(2)
+
+  // Example usage of setStepNumber
+  const handleNextStep = () => {
+    setStepNumber((prevStep) => prevStep + 1);
+  };
+
   return (
     <div>
       <Header icon={<PiFileTextBold />} label="New File" />
@@ -27,7 +33,7 @@ export default function NewFile() {
           <div className="px-8 py-4 border-b border-light-gray1 flex justify-between items-center">
             <div className="flex items-center gap-2">
               <button>Back</button>
-              <button>Next</button>
+              <button onClick={handleNextStep}>Next</button>
             </div>
 
             <div className="flex items-center gap-2">
