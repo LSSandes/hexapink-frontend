@@ -473,7 +473,7 @@
   font-size: 64px; /* Adjust font size as needed */
   font-weight: bold; /* Make text bold */
   color: red; /* Make text transparent */
-  background-image: url('@/assets/TheHomePage/image/hexapink_img.jpeg'); /* Replace with your image path */
+  background-image: url('../../assets/TheHomePage/image/hexapink_img.jpeg'); /* Replace with your image path */
   background-clip: text; /* Clip the background image to the text */
   -webkit-background-clip: text; /* For Safari */
   background-size: cover; /* Cover the entire text */
