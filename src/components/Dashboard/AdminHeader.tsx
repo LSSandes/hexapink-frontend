@@ -1,5 +1,5 @@
 // "use client"
-import React, { JSX, useEffect, useState } from "react";
+import React, { JSX } from "react";
 import Link from "next/link";
 
 import { PiPlusCircle } from "react-icons/pi";

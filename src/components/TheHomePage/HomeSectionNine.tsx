@@ -33,7 +33,7 @@ export default function HomeSectionNine() {
       </div>
       <div className="absolute lg:top-[30%] top:[20%] lg:w-[50%] w-[90%] lg:h-[60%] h-[65%] lg:talkus-paper-clip bg-white flex justify-start items-start flex-col p-[5%] gap-5 ">
         <h1 className="lg:text-[40px] text-[24px] font-[kanit-semibold] lg:w-[60%] w-[80%]">
-          Are you interested? Let's talk Business
+          Are you interested? Let&apos;s talk Business
         </h1>
         <p className="text-[#666666] font-[raleway-medium] text-[20px]">
           Fill this form or send an email to Contact@hexapink.com

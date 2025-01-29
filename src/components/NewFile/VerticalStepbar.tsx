@@ -1,4 +1,4 @@
-import { DivideIcon } from "@heroicons/react/20/solid";
+// import { DivideIcon } from "@heroicons/react/20/solid";
 import React, { useState } from "react";
 
 interface Step {
@@ -14,7 +14,7 @@ const VerticalStepBar: React.FC<VerticalStepBarProps> = ({
   steps,
   stepNumber,
 }) => {
-  const [selectedStep, setSelectedStep] = useState<number | null>(null);
+  // const [selectedStep, setSelectedStep] = useState<number | null>(null);
 
   return (
     <div className="relative flex flex-col items-start gap-12">

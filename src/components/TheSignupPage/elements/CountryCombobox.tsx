@@ -8,11 +8,19 @@ interface Country {
   name: string;
 }
 
+interface CountryData {
+  name: string;
+  // Add other properties if needed
+}
+
 // Convert countries object to an array of countries
-const countryArray: Country[] = Object.keys(countries).map((key, index) => ({
-  id: index + 1,
-  name: (countries as any)[key].name,
-}));
+const countryArray: Country[] = Object.keys(countries).map((key, index) => {
+  const country = countries[key as keyof typeof countries] as CountryData;
+  return {
+    id: index + 1,
+    name: country.name,
+  };
+});
 
 const CountryCombobox = () => {
   const [selectedCountry, setSelectedCountry] = useState<Country | null>(

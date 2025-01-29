@@ -106,7 +106,7 @@ export default function SignupPageMain() {
           className="lg:text-[20px] text-[14px] font-[raleway-medium] text-[#666666] tracking-wider"
           hidden={stepKey != "verification"}
         >
-          You didn't receive any code in your email? <br />
+          You didn&apos;t receive any code in your email? <br />
           <Link
             href="/resend"
             className="text-[#666666] border-b-2 font-[raleway-semibold] border-[#666666] tracking-wider"

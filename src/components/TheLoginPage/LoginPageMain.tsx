@@ -16,7 +16,7 @@ export default function LoginPageMain() {
       <div className="lg:w-[80%] w-[90%] lg:mt-24 mt-10 justify-start items-start flex flex-col">
         <h1 className="lg:text-[40px] text-[30px] font-[kanit-bold]">Welcome Back!</h1>
         <p className="lg:text-[20px] text-[18px] font-[raleway-medium] text-[#666666]">
-          You don't have an account?{" "}
+          You don&apos;t have an account?{" "}
           <Link
             href="/signup"
             className="text-[#666666] border-b-2 font-[raleway-semibold] border-[#666666]"
